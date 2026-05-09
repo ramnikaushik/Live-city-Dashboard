@@ -5,9 +5,7 @@ import {set_day_weather} from "./Home"
 const Food = ({ setPage, city, weather }) => {
   const [restaurants, setRestaurants] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [bannerline,setBannerline] = useState("")
-  const [bgrnd_img,setBgrnd_img] = useState("")
-  let ui ="";
+
   let bgrnd;
 
   useEffect(() => {
